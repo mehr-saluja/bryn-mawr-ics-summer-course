@@ -96,7 +96,6 @@ def complete_meal_and_payment(total):
     print(f"💵 Tip amount: ${tip_amount:.2f}")
     print(f"💰 Final total (with tip): ${final_total:.2f}")
 
-    print("\n🎉 Thank you for choosing Summertime Bar. We hope to see you again soon!")
 
 if order:
     complete_meal_and_payment(total)
